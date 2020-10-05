@@ -1,0 +1,1 @@
+$SPARK_HOME/bin/spark-submit --class org.spark.test.job.SparkAppMain --master yarn --deploy-mode client --conf spark.hadoop.hadoop.security.credential.provider.path=jceks://hdfs/user/datahub/pdbms/awskeyfile3.jceks SparkTest.jar
